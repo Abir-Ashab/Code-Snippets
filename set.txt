@@ -1,0 +1,9 @@
+{
+	"CPP": {
+		"prefix": "dset",
+		"body": [
+		"set < ll > d;",
+		],
+		"description": "Log output to console"
+	}
+}

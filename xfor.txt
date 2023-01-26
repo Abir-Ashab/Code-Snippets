@@ -1,0 +1,9 @@
+{
+	"CPP": {
+		"prefix": "xfor",
+		"body": [
+		"for(int i = 0; i < x; ++i)",
+		],
+		"description": "Log output to console"
+	}
+}

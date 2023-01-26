@@ -1,0 +1,9 @@
+{
+	"CPP": {
+		"prefix": "eachFor",
+		"body": [
+		"for( auto val : v ) cout << val << ' ';",
+		],
+		"description": "Log output to console"
+	}
+}

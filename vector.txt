@@ -1,0 +1,9 @@
+{
+	"CPP": {
+		"prefix": "vvector",
+		"body": [
+		"vector < ll > v;",
+		],
+		"description": "Log output to console"
+	}
+}
