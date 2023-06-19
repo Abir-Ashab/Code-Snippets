@@ -1,0 +1,17 @@
+{
+	"Print to console": {
+		"scope": "cpp",
+		"prefix": "sieve",
+		"body": [
+			"f[1] = true;",
+  			"for (int i = 2; i * i <= n; i++) {",
+    		"   if (!f[i]) {",
+      		"     for (int j = i * i; j <= n; j += i) {",
+        	"        f[j] = true;",
+      		"     }",
+    		"   }",
+  			"}",
+		],
+		"description": "Log output to console"
+	}
+}
