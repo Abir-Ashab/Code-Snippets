@@ -1,0 +1,21 @@
+{
+	"Print to console": {
+		"scope": "cpp",
+		"prefix": "dfs",
+		"body": [
+			"const int N = 1e5 + 9;",
+			"bool vis[N];",
+			"vector < ll > vertex[N];",
+			" ",
+			"void dfs(int source) {",
+			"   vis[source] = 1;",
+			"   for( auto val :vertex[source] ) {",
+			"      if(!vis[val]) { ",
+			"        dfs(val);",
+			"      }",
+			"   }",
+			"}",
+		],
+		"description": "Log output to console"
+	}
+}
